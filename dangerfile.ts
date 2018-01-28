@@ -1,2 +1,4 @@
 import { danger, message } from "danger"
-message(":tada:, this worked @" + danger.github.pr.user.login)
+import mentor from "danger-plugin-mentor"
+
+mentor()
