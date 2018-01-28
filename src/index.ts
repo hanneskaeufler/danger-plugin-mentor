@@ -12,5 +12,5 @@ export declare function markdown(message: string): void
 export default function mentor() {
   // Replace this with the code from your Dangerfile
   const title = danger.github.pr.title
-  message(`PR Title: ${title}`)
+  message("the tip")
 }

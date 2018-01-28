@@ -17,15 +17,13 @@ describe("mentor()", () => {
     global.markdown = undefined
   })
 
-  it("Checks for a that message has been called", () => {
+  it("outputs a random tip about programming", () => {
     global.danger = {
       github: { pr: { title: "My Test Title" } },
     }
 
     mentor()
 
-    expect(global.message).toHaveBeenCalledWith(
-      "PR Title: My Test Title",
-    )
+    expect(global.message).toHaveBeenCalledWith("the tip")
   })
 })
