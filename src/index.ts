@@ -1,4 +1,4 @@
-// Provides dev-time type structures for  `danger` - doesn't affect runtime.
+// Provides dev-time type structures for `danger` - doesn't affect runtime.
 import { DangerDSLType } from "../node_modules/danger/distribution/dsl/DangerDSL"
 import RandomTip from "./random_tip"
 declare var danger: DangerDSLType
