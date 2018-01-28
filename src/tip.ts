@@ -1,10 +1,14 @@
+type Tag = string
+
 export default class Tip {
   private text: string
-  private source?: URL
+  private source: URL
+  private tags: Tag[]
 
-  constructor(text: string, source?: URL) {
+  constructor(text: string, source: URL, tags) {
     this.text = text
     this.source = source
+    this.tags = tags
   }
 
   toMarkdown(): string {
