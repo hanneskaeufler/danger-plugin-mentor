@@ -1,10 +1,9 @@
-import * as fs from "fs"
 import Tip from "./tip"
 
-export default function AllTips(fromFile: string): Tip[] {
-  const source = JSON.parse(fs.readFileSync(fromFile, "utf-8"))
-
-  return source.tips.map((tipData) => {
-    return new Tip(tipData.text)
-  })
+export default function AllTips(): Tip[] {
+  return [
+    new Tip("Always make an effort to use good variable names."),
+    new Tip("Be consistent with style, meaning things like indentation, spacing around functions etc."),
+    new Tip("Be nice."),
+  ]
 }
