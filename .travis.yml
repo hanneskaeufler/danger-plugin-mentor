@@ -1,14 +1,17 @@
-dist: trusty
 sudo: false
-cache: yarn
-addons:
-  apt:
-    sources:
-      - sourceline: 'deb https://dl.yarnpkg.com/debian/ stable main'
-        key_url: 'https://dl.yarnpkg.com/debian/pubkey.gpg'
-    packages:
-      - yarn
+language: node_js
+cache:
+  yarn: true
+notifications:
+  email: false
+node_js:
+  - '9'
+  - '8'
 script:
-  - yarn install
   - yarn test
   - yarn danger ci
+after_success:
+  - npm run travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/

@@ -24,6 +24,6 @@ describe("mentor()", () => {
 
     mentor()
 
-    expect(global.message).toHaveBeenCalledWith("the tip")
+    expect(global.message).toHaveBeenCalledWith(expect.stringMatching(/the tip/))
   })
 })
