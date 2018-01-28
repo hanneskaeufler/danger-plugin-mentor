@@ -1,7 +1,9 @@
+import AllTips from "./all_tips"
 import Tip from "./tip"
 
 export default function RandomTip(): Tip {
-  const rand = Math.floor(Math.random() * 100)
+  const tips = AllTips("./src/tips.json")
+  const rand = Math.floor(Math.random() * tips.length)
 
-  return new Tip(`the tip ${rand}`)
+  return tips[rand]
 }
