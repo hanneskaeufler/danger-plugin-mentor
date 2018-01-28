@@ -1,13 +1,10 @@
 {
     "tips": [
         {
-            "text": "Always make an effort to use good variable names."
+            "text": "Tip 1"
         },
         {
-            "text": "Be consistent with style, meaning things like indentation, spacing around functions etc."
-        },
-        {
-            "text": "Be nice."
+            "text": "Tip 2"
         }
     ]
 }
