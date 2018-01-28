@@ -1,9 +1,7 @@
-type Tag = string
-
 export default class Tip {
+  readonly tags: string[]
   private text: string
   private source: URL
-  private tags: Tag[]
 
   constructor(text: string, source: URL, tags) {
     this.text = text

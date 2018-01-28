@@ -6,10 +6,14 @@ describe("RandomTip", () => {
   mockRandomForEach([0.0, 0.9])
 
   it("returns a tip", () => {
-    expect(RandomTip()).toBeInstanceOf(Tip)
+    expect(RandomTip([])).toBeInstanceOf(Tip)
   })
 
   it("returns random tips", () => {
-    expect(RandomTip()).not.toMatchObject(RandomTip())
+    expect(RandomTip([])).not.toMatchObject(RandomTip([]))
+  })
+
+  it("can filter by tag", () => {
+    expect(RandomTip(["testing"]).tags).toContain("testing")
   })
 })
