@@ -1,4 +1,14 @@
-language: node_js
-script: yarn test
-before_script:
+dist: trusty
+sudo: false
+cache: yarn
+addons:
+  apt:
+    sources:
+      - sourceline: 'deb https://dl.yarnpkg.com/debian/ stable main'
+        key_url: 'https://dl.yarnpkg.com/debian/pubkey.gpg'
+    packages:
+      - yarn
+script:
+  - yarn install
+  - yarn test
   - yarn danger ci
