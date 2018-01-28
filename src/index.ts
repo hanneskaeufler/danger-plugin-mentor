@@ -11,5 +11,5 @@ export declare function markdown(message: string): void
  * Level up your programming skills by getting bite-sized tips and tricks in your pull requests.
  */
 export default function mentor() {
-  message(RandomTip())
+  message(RandomTip().text)
 }
