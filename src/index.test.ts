@@ -18,10 +18,6 @@ describe("mentor()", () => {
   })
 
   it("outputs a random tip about programming", () => {
-    global.danger = {
-      github: { pr: { title: "My Test Title" } },
-    }
-
     mentor()
 
     expect(global.message).toHaveBeenCalledWith(expect.stringMatching(/the tip/))
