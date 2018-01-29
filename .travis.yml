@@ -8,7 +8,8 @@ node_js:
   - '9'
   - '8'
 script:
-  - yarn test
+  - yarn test -- --coverage
+  - yarn run codeclimate-test-reporter < coverage/lcov.info
   - yarn danger ci
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
