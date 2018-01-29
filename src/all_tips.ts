@@ -1,3 +1,4 @@
+import { URL } from "url"
 import Tip from "./tip"
 
 /* tslint:disable:max-line-length */
