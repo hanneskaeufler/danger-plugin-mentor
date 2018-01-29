@@ -30,8 +30,8 @@ export default function AllTips(): Tip[] {
       ["clean-code"]
     ),
     new Tip(
-      "Be consistent with style, meaning things like indentation, spacing around functions etc.",
-      new URL("http://example.com"),
+      "Having a consistent code style in your project should not be underestimated, as by making code more readable for all project contributors, it can save everyone’s time and even help you avoid some errors.",
+      new URL("https://blog.jetbrains.com/webstorm/2015/08/maintaining-consistent-code-style/"),
       ["java"]
     ),
     new Tip("Be nice.", new URL("http://example.com"), ["testing"]),
