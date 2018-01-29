@@ -22,7 +22,7 @@ export default function AllTips(): Tip[] {
     new Tip(
       "Have you tried TDD? Test-Driven Development is the practice of iteratively writing automated tests before implementing production code. It's a super fun tool that can help you produce high quality code by giving you instant design feedback.",
       new URL("https://en.wikipedia.org/wiki/Test-driven_development"),
-      ["testing", "agine"]
+      ["testing", "agile"]
     ),
     new Tip(
       "Did you know that you can often replace a for loop by a map/filter function?",
