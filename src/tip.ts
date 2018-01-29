@@ -10,10 +10,6 @@ export default class Tip {
   }
 
   toMarkdown(): string {
-    if (this.source) {
-      return `${this.text} Source: [${this.source}](${this.source})`
-    }
-
-    return this.text
+    return `${this.text} Source: [${this.source}](${this.source})`
   }
 }
