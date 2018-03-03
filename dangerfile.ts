@@ -8,4 +8,4 @@ if (!danger.github.pr.body) {
 
 schedule(yarn())
 
-mentor(["lol-whaddaya-want"])
+mentor()
