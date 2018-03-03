@@ -1,4 +1,9 @@
-export default class Tip {
+export interface Tip {
+  readonly tags: string[]
+  toMarkdown(): string
+}
+
+export class MentorTip implements Tip {
   readonly tags: string[]
   private text: string
   private source: URL

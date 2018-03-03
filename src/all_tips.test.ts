@@ -1,5 +1,4 @@
 import AllTips from "./all_tips"
-import Tip from "./tip"
 
 describe("AllTips", () => {
   it("returns all the tips", () => {
