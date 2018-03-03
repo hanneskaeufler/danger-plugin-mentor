@@ -10,6 +10,6 @@ export default class Tip {
   }
 
   toMarkdown(): string {
-    return `${this.text} Source: [${this.source}](${this.source})`
+    return `${this.text} [Source](${this.source})`
   }
 }
