@@ -1356,9 +1356,9 @@ cz-conventional-changelog@^2.0.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-danger-plugin-mentor@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-0.3.0.tgz#1eda5a8720bde02f6544791b1655752e25273a96"
+danger-plugin-mentor@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-0.4.0.tgz#f882324362dc1dc3c1ef4c74312a644bd530fb39"
   optionalDependencies:
     esdoc "^0.5.2"
 
