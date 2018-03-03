@@ -24,6 +24,15 @@ import mentor from 'danger-plugin-mentor'
 
 mentor()
 ```
+
+![example](example.png)
+
+You can specify an array of string tags to filter the shown tips:
+
+```js
+mentor(["testing", "agile"])
+```
+
 ## Changelog
 
 See the GitHub [release history](https://github.com/hanneskaeufler/danger-plugin-mentor/releases).
