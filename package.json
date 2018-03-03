@@ -26,7 +26,7 @@
     "commit": "git-cz",
     "commitmsg": "validate-commit-msg",
     "build": "tsc",
-    "test": "jest --no-watchman",
+    "test": "jest",
     "predocs": "rm -rf docs/",
     "docs": "esdoc -c .esdoc.json",
     "prepublish": "npm run build",
