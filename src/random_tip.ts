@@ -15,5 +15,5 @@ export default function RandomTip(tags: string[]): Tip {
     })
   }
 
-  return tips.length > 0 ? tips[rand(tips.length)] : new NoTip()
+  return tips.length > 0 ? tips[rand(tips.length)] : new NoTip(tags)
 }
