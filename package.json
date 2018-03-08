@@ -28,7 +28,7 @@
     "build": "tsc",
     "test": "jest",
     "predocs": "rm -rf docs/",
-    "docs": "esdoc -c .esdoc.json",
+    "docs": "echo todo",
     "prepublish": "npm run build",
     "semantic-release": "semantic-release",
     "prettier": "prettier",
@@ -61,9 +61,7 @@
     "typescript": "^2.3.2",
     "validate-commit-msg": "^2.12.1"
   },
-  "optionalDependencies": {
-    "esdoc": "^1.1.0"
-  },
+  "optionalDependencies": {},
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
