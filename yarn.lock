@@ -1801,11 +1801,11 @@ cz-conventional-changelog@^2.0.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-danger-plugin-mentor@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-0.6.0.tgz#dc9b0cf16ae5ec21e217567953d2943ea52484f9"
-  optionalDependencies:
-    esdoc "^0.5.2"
+danger-plugin-mentor@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-0.7.0.tgz#2eba00433aa28a6ed38fd6d618055894f2a615f4"
+  dependencies:
+    npm "^5.7.1"
 
 danger-plugin-yarn@^1.2.1:
   version "1.2.1"
