@@ -2,6 +2,7 @@ import { URL } from "url"
 import { MentorTip, Tip } from "./tip"
 
 /* tslint:disable:max-line-length */
+/* tslint:disable:trailing-comma */
 export default function AllTips(): Tip[] {
   return [
     new MentorTip(
@@ -20,6 +21,11 @@ export default function AllTips(): Tip[] {
       ["continuous-delivery", "agile"]
     ),
     new MentorTip(
+      "*Kanban* originated in manufacturing in the 1940s. Today it is also used by agile software teams for transparency and faster output. Many tools exist to implement Kanban in your project.",
+      new URL("https://www.atlassian.com/agile/kanban"),
+      ["agile"]
+    ),
+    new MentorTip(
       "Have you tried TDD? Test-Driven Development is the practice of iteratively writing automated tests before implementing production code. It's a super fun tool that can help you produce high quality code by giving you instant design feedback.",
       new URL("https://en.wikipedia.org/wiki/Test-driven_development"),
       ["testing", "agile"]
@@ -34,6 +40,10 @@ export default function AllTips(): Tip[] {
       new URL("https://blog.jetbrains.com/webstorm/2015/08/maintaining-consistent-code-style/"),
       ["java"]
     ),
-    new MentorTip("Be nice.", new URL("http://example.com"), ["testing"]),
+    new MentorTip(
+      "Be nice. We are all trying to do our best work.",
+      new URL("https://www.npmjs.com/package/danger-plugin-mentor"),
+      ["non-technical"]
+    ),
   ]
 }
