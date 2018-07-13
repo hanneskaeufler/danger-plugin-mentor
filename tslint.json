@@ -26,7 +26,14 @@
     "switch-default": false,
     "trailing-comma": [
       true,
-      { "multiline": "always", "singleline": "never" }
+      {
+        "multiline": {
+          "objects": "always",
+          "functions": "never",
+          "arrays": "always"
+        },
+        "singleline": "never"
+      }
     ]
   }
 }
