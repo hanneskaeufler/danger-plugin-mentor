@@ -102,6 +102,6 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "npm": "^5.7.1"
+    "npm": "^6.2.0"
   }
 }
