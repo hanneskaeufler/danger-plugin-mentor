@@ -5,8 +5,8 @@ export interface Tip {
 
 export class MentorTip implements Tip {
   private readonly tags: string[]
-  private text: string
-  private source: URL
+  private readonly text: string
+  private readonly source: URL
 
   constructor(text: string, source: URL, tags) {
     this.text = text
