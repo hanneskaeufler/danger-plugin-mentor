@@ -11,7 +11,7 @@ export default function RandomTip(tags: string[]): Tip {
 
   if (tags.length > 0) {
     tips = tips.filter(tip => {
-      return tip.tags.filter(tag => tags.indexOf(tag) !== -1).length > 0
+      return tip.hasAnyTag(tags)
     })
   }
 
