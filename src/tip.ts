@@ -1,10 +1,10 @@
 export interface Tip {
-  readonly tags: string[]
   toMarkdown(): string
+  hasAnyTag(tags: string[]): boolean
 }
 
 export class MentorTip implements Tip {
-  readonly tags: string[]
+  private readonly tags: string[]
   private text: string
   private source: URL
 

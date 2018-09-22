@@ -1,7 +1,7 @@
 import { Tip } from "./tip"
 
 export default class NoTip implements Tip {
-  readonly tags: string[]
+  private readonly tags: string[]
 
   constructor(tags: string[]) {
     this.tags = tags
@@ -11,5 +11,9 @@ export default class NoTip implements Tip {
     const tags = this.tags.map(tag => `"${tag}"`).join(", ")
 
     return `danger-plugin-mentor: No tip found for tags: ${tags}.`
+  }
+
+  hasAnyTag(tags: string[]): boolean {
+    return false
   }
 }

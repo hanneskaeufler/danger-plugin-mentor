@@ -15,7 +15,7 @@ describe("RandomTip", () => {
   })
 
   it("can filter by tag", () => {
-    expect(RandomTip(["testing"]).tags).toContain("testing")
+    expect(RandomTip(["testing"]).hasAnyTag(["testing"])).toBeTruthy()
   })
 
   it("returns a NoTip when no tip was found", () => {
