@@ -17,4 +17,8 @@ export class MentorTip implements Tip {
   toMarkdown(): string {
     return `${this.text} [Source](${this.source})`
   }
+
+  hasTag(tag: string): boolean {
+    return this.tags.indexOf(tag) !== -1
+  }
 }
