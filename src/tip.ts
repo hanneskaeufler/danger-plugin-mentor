@@ -18,7 +18,7 @@ export class MentorTip implements Tip {
     return `${this.text} [Source](${this.source})`
   }
 
-  hasTag(tag: string): boolean {
-    return this.tags.indexOf(tag) !== -1
+  hasAnyTag(tags: string[]): boolean {
+    return this.tags.filter(tag => tags.indexOf(tag) !== -1).length > 0
   }
 }
