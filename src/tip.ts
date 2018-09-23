@@ -1,3 +1,8 @@
+import { URL } from "url"
+
+/**
+ * Was geht
+ */
 export interface Tip {
   toMarkdown(): string
   hasAnyTag(tags: string[]): boolean
