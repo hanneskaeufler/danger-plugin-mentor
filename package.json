@@ -50,7 +50,7 @@
     "danger": "4.0.1",
     "danger-plugin-mentor": "^0.7.0",
     "danger-plugin-yarn": "^1.2.1",
-    "husky": "^0.14.3",
+    "husky": "^1.0.0",
     "jest": "^23.4.0",
     "jest-mock-random": "^1.0.2",
     "lint-staged": "^7.2.0",
