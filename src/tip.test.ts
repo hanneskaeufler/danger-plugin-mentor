@@ -1,3 +1,4 @@
+import { URL } from "url"
 import { MentorTip } from "./tip"
 
 describe("Tip", () => {
