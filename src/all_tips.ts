@@ -45,5 +45,20 @@ export default function AllTips(): Tip[] {
       new URL("https://www.npmjs.com/package/danger-plugin-mentor"),
       ["non-technical"]
     ),
+    new MentorTip(
+      "Cyclomatic complexity is a software metric, used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. It was developed by Thomas J. McCabe, Sr. in 1976.",
+      new URL("https://en.wikipedia.org/wiki/Cyclomatic_complexity"),
+      ["clean-code"]
+    ),
+    new MentorTip(
+      "The Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Interface Segregation Principle and Dependency Inversion Principle are cornerstones for understandable and maintainable object oriented software.",
+      new URL("https://sites.google.com/site/unclebobconsultingllc/getting-a-solid-start"),
+      ["clean-code"]
+    ),
+    new MentorTip(
+      "A guard statement with an early return can avoid deep nesting and aid understanding of methods.",
+      new URL("http://wiki.c2.com/?GuardClause"),
+      ["clean-code"]
+    ),
   ]
 }
