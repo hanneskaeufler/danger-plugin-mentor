@@ -57,7 +57,7 @@
     "travis-deploy-once": "^5.0.1",
     "ts-jest": "^23.10.2",
     "tslint": "^5.4.3",
-    "typedoc": "^0.13.0",
+    "typedoc": "^0.14.0",
     "typescript": "^2.3.2",
     "validate-commit-msg": "^2.12.1"
   },
