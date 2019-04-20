@@ -29,7 +29,7 @@
     "docs": "typedoc --out docs/ --theme minimal --exclude **/*.test.ts src/",
     "prepublish": "npm run build",
     "semantic-release": "semantic-release",
-    "prettier": "prettier",
+    "prettier": "prettier --check 'src/**/*.{ts,tsx}'",
     "prettier-write": "npm run prettier -- --write",
     "prettier-project": "npm run prettier-write -- 'src/**/*.{ts,tsx}'",
     "lint": "tslint \"src/**/*.ts\"",
