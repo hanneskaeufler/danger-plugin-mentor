@@ -99,7 +99,9 @@
     "printWidth": 120,
     "trailingComma": "es5"
   },
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "3"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "validate-commit-msg",
