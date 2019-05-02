@@ -44,7 +44,7 @@
     "@types/node": "^11.11.8",
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.0.0",
-    "danger": "6.1.11",
+    "danger": "7.1.4",
     "danger-plugin-mentor": "^1.0.0",
     "danger-plugin-yarn": "^1.2.1",
     "husky": "^2.0.0",
