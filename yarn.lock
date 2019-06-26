@@ -1950,10 +1950,10 @@ danger-plugin-yarn@^1.2.1:
     node-fetch "^1.7.1"
     semver "^5.4.1"
 
-danger@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/danger/-/danger-8.0.0.tgz#9809d17e6213c05c3cc2c4e0573f707acc3f5402"
-  integrity sha512-S3Q9ukawJUxA2SRlfzLtP/WzGr2jiKqkRi3pX/Scbfm0nLh/KNQLMsdgYHhJwECCe5Vt69iy7b2zMMga4rFNrQ==
+danger@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/danger/-/danger-9.0.0.tgz#fa2ca702f260a566655efc7746198ea04d5731c5"
+  integrity sha512-AKX7RQ/C9bcsn535O8zcvvwFC34sky7UR7j5ImAFBkbXVSmgquHDUpAGce+yY9dRHo8i0ZupYY/++FrPtD4crA==
   dependencies:
     "@babel/polyfill" "^7.2.5"
     "@octokit/rest" "^16.14.1"
