@@ -18,6 +18,7 @@ before_script:
 script:
   - yarn test -- --coverage
   - yarn run lint
+  - yarn run prettier
   - yarn danger ci
 after_script:
   - greenkeeper-lockfile-upload

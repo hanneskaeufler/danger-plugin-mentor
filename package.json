@@ -30,9 +30,8 @@
     "prepublish": "yarn build",
     "semantic-release": "semantic-release",
     "prettier": "prettier --check 'src/**/*.{ts,tsx}'",
-    "prettier-write": "prettier -- --write",
-    "prettier-project": "prettier-write -- 'src/**/*.{ts,tsx}'",
-    "lint": "tslint \"src/**/*.ts\"",
+    "prettier-project": "yarn prettier --write 'src/**/*.{ts,tsx}'",
+    "lint": "tslint \"src/**/*.ts\" && yarn prettier",
     "travis-deploy-once": "travis-deploy-once"
   },
   "license": "MIT",
