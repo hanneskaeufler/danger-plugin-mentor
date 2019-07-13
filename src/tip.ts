@@ -1,7 +1,7 @@
 import { URL } from "url"
 
 /**
- * Was geht
+ * The interface all tips have to adhere to.
  */
 export interface Tip {
   toMarkdown(): string

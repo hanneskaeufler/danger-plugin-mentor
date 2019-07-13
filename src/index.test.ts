@@ -1,4 +1,7 @@
-import mentor from "./index"
+import { URL } from "url"
+import AllTips from "./all_tips"
+import { default as mentor, defaultTips } from "./index"
+import { MentorTip } from "./tip"
 
 declare const global: any
 
@@ -21,5 +24,23 @@ describe("mentor()", () => {
     mentor()
 
     expect(global.message).toHaveBeenCalled()
+  })
+
+  it("accepts an array of tags", () => {
+    mentor(["foo"])
+
+    expect(global.message).toHaveBeenCalled()
+  })
+
+  it("accepts a list of tips", () => {
+    mentor([], [new MentorTip("some tip", new URL("https://example.com"), [])])
+
+    expect(global.message).toHaveBeenCalledWith(expect.stringContaining("some tip"))
+  })
+})
+
+describe("defaultTips()", () => {
+  it("returns all tips", () => {
+    expect(defaultTips()).toEqual(AllTips())
   })
 })
