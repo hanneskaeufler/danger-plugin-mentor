@@ -1,6 +1,6 @@
 import { URL } from "url"
 import AllTips from "./all_tips"
-import { default as mentor, defaultTips } from "./index"
+import { default as mentor, defaultTips, fromJson } from "./index"
 import { MentorTip } from "./tip"
 
 declare const global: any
@@ -42,5 +42,11 @@ describe("mentor()", () => {
 describe("defaultTips()", () => {
   it("returns all tips", () => {
     expect(defaultTips()).toEqual(AllTips())
+  })
+})
+
+describe("fromJson()", () => {
+  it("returns mentor tips from json input", () => {
+    expect(fromJson("[]")).toHaveLength(0)
   })
 })

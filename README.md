@@ -50,6 +50,24 @@ import { default as mentor, defaultTips } from 'danger-plugin-mentor'
 mentor([], [...defaultTips(), ...myOwnListOfTips])
 ```
 
+In order to make it easy to provide your own list of tips, danger-plugin-mentor ships
+with a `fromJson` that returns an array of lists from a json file.
+
+```js
+import { default as mentor, fromJson } from "danger-plugin-mentor"
+
+mentor([], fromJson(`
+[
+    {
+        "text": "My own tip",
+        "source": "https://mycompany.com",
+        "tags": ["awesome"]
+    }
+]
+`))
+
+```
+
 ## Changelog
 
 See the GitHub [release history](https://github.com/hanneskaeufler/danger-plugin-mentor/releases).
