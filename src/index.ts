@@ -24,3 +24,4 @@ export function defaultTips() {
 }
 
 export { Tip } from "./tip"
+export { default as fromJson } from "./from_json"
