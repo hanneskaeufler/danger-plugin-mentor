@@ -1,5 +1,6 @@
 import { URL } from "url"
-import mentor from "./index"
+import AllTips from "./all_tips"
+import { default as mentor, defaultTips } from "./index"
 import { MentorTip } from "./tip"
 
 declare const global: any
@@ -35,5 +36,11 @@ describe("mentor()", () => {
     mentor([], [new MentorTip("some tip", new URL("https://example.com"), [])])
 
     expect(global.message).toHaveBeenCalledWith(expect.stringContaining("some tip"))
+  })
+})
+
+describe("defaultTips()", () => {
+  it("returns all tips", () => {
+    expect(defaultTips()).toEqual(AllTips())
   })
 })

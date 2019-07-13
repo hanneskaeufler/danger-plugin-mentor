@@ -15,3 +15,12 @@ export declare function markdown(message: string): void
 export default function mentor(tags: string[] = [], tips: Tip[] = AllTips()) {
   message(RandomTip(tips, tags).toMarkdown())
 }
+
+/**
+ * All the tips that mentor comes included with.
+ */
+export function defaultTips() {
+  return AllTips()
+}
+
+export { Tip } from "./tip"
