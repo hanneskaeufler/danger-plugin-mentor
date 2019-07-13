@@ -35,7 +35,7 @@ mentor(["testing", "agile"])
 
 Should you not like or want to expand upon the default set of tips, you can pass an array of tips that you provide yourself.
 
-```
+```js
 mentor([], myOwnListOfTips)
 ```
 
@@ -44,7 +44,7 @@ in Typescript, you can import via `import { Tip } from 'danger-plugin-mentor'`.
 In Javascript, you just need to make sure that every item responds to the methods
 of this interface. Of course you can mix your own tips with the included tips:
 
-```
+```js
 import { default as mentor, defaultTips } from 'danger-plugin-mentor'
 
 mentor([], [...defaultTips(), ...myOwnListOfTips])
