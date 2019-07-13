@@ -22,4 +22,10 @@ describe("mentor()", () => {
 
     expect(global.message).toHaveBeenCalled()
   })
+
+  it("accepts an array of tags", () => {
+    mentor(["foo"])
+
+    expect(global.message).toHaveBeenCalled()
+  })
 })
