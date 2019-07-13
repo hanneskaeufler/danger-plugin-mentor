@@ -2275,10 +2275,10 @@ cz-conventional-changelog@2.1.0, cz-conventional-changelog@^2.0.0:
     right-pad "^1.0.1"
     word-wrap "^1.0.3"
 
-danger-plugin-mentor@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-1.1.0.tgz#6f25a69e0c156e62e9df36212f617534fde77758"
-  integrity sha512-MuLOsk+Co4YWcJSL2WWxr4xU82DsU+ewgNbf/GrJlPzOFyETg0prkqS1r1p1u7RKZom5Xy7iyRPG7cHaDVHypA==
+danger-plugin-mentor@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-1.3.0.tgz#5793aaa91c89d305fbcaa411d30b5574a23c49d8"
+  integrity sha512-Gc/jaNvtZx7rhf5TmeAZFVsuz+uaCKOZkk/7gy4UW7YieseY7L+M8icQheU5oIjBYGGCubQ1PhV0e2fz4IMa2w==
   dependencies:
     core-js "3"
 
