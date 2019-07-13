@@ -60,5 +60,30 @@ export default function AllTips(): Tip[] {
       new URL("http://wiki.c2.com/?GuardClause"),
       ["clean-code"]
     ),
+    new MentorTip(
+      "An often used concept to convey the benefits of encapsulation in object-oriented programming is Tell-Dont-Ask. It helps remind ourselves that rather than asking an object for its data and then acting opon it, we should instead tell the object what to do.",
+      new URL("https://martinfowler.com/bliki/TellDontAsk.html"),
+      ["clean-code"]
+    ),
+    new MentorTip(
+      "Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are highly maintainable, loosely coupled, independently deployable and more.",
+      new URL("https://microservices.io"),
+      ["software-architecture"]
+    ),
+    new MentorTip(
+      "In software engineering, a monolithic application describes a software application which is designed without modularity. Modularity is desirable, in general, as it supports reuse of parts of the application logic and also facilitates maintenance by allowing repair or replacement of parts of the application without requiring wholesale replacement.",
+      new URL("https://en.wikipedia.org/wiki/Monolithic_application"),
+      ["software-architecture"]
+    ),
+    new MentorTip(
+      "Mutation Testing is a type of software testing where certain statements in the source code are mutated (changed) and checked if the test cases are able to find the errors. It is a type of White Box Testing which is mainly used for Unit Testing.",
+      new URL("https://www.guru99.com/mutation-testing.html"),
+      ["testing"]
+    ),
+    new MentorTip(
+      "A parser generator is an application which generates a parser. Sometimes also called a 'compiler compiler'.",
+      new URL("https://wiki.tcl-lang.org/page/parser+generator"),
+      ["computer-science"]
+    ),
   ]
 }
