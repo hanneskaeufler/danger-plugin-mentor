@@ -68,7 +68,7 @@
   "lint-staged": {
     "*.@(ts|tsx)": [
       "tslint --fix",
-      "yarn prettier-write --",
+      "yarn prettier --write --",
       "git add"
     ]
   },
