@@ -2283,9 +2283,9 @@ cz-conventional-changelog@2.1.0, cz-conventional-changelog@^2.0.0:
     word-wrap "^1.0.3"
 
 danger-plugin-mentor@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-1.0.0.tgz#091a69c689b66fad3553a6501d9b5d578e4b2f18"
-  integrity sha512-KtDjs/J1uGQrXKnMNUHpgVGCBZHj2QsNOblFyaYWWDKQAyGbXnsKSvwnPNpXGgp+zR79sxgzNi5TA8nVWoOzug==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/danger-plugin-mentor/-/danger-plugin-mentor-1.1.0.tgz#6f25a69e0c156e62e9df36212f617534fde77758"
+  integrity sha512-MuLOsk+Co4YWcJSL2WWxr4xU82DsU+ewgNbf/GrJlPzOFyETg0prkqS1r1p1u7RKZom5Xy7iyRPG7cHaDVHypA==
   dependencies:
     core-js "3"
 

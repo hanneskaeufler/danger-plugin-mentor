@@ -1,5 +1,5 @@
 import { danger, message, schedule, warn } from "danger"
-import mentor from "danger-plugin-mentor"
+import { default as mentor, defaultTips } from "danger-plugin-mentor"
 import yarn from "danger-plugin-yarn"
 
 if (!danger.github.pr.body) {
@@ -8,4 +8,4 @@ if (!danger.github.pr.body) {
 
 schedule(yarn())
 
-mentor()
+mentor([], [...defaultTips()])
