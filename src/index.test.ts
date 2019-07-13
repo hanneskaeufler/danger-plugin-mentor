@@ -1,4 +1,6 @@
+import { URL } from "url"
 import mentor from "./index"
+import { MentorTip } from "./tip"
 
 declare const global: any
 
@@ -27,5 +29,11 @@ describe("mentor()", () => {
     mentor(["foo"])
 
     expect(global.message).toHaveBeenCalled()
+  })
+
+  it("accepts a list of tips", () => {
+    mentor([], [new MentorTip("some tip", new URL("https://example.com"), [])])
+
+    expect(global.message).toHaveBeenCalledWith(expect.stringContaining("some tip"))
   })
 })

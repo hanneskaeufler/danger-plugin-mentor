@@ -33,6 +33,12 @@ You can specify an array of string tags to filter the shown tips:
 mentor(["testing", "agile"])
 ```
 
+Should you not like the default set of tips, you can pass an array of tips that you provide yourself.
+
+```
+mentor([], myOwnListOfTips)
+```
+
 ## Changelog
 
 See the GitHub [release history](https://github.com/hanneskaeufler/danger-plugin-mentor/releases).
