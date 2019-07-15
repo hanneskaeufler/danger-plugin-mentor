@@ -18,7 +18,7 @@ before_script:
 script:
   - yarn test -- --coverage
   - yarn run lint
-  - yarn danger ci
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash -c "yarn danger ci"; fi'
 after_script:
   - greenkeeper-lockfile-upload
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
