@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.12",
-    "@types/node": "^12.7.9",
+    "@types/node": "^12.7.12",
     "commitizen": "^3.0.5",
     "cz-conventional-changelog": "^2.0.0",
     "danger": "9.2.1",
