@@ -98,7 +98,7 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "core-js": "3"
+    "core-js": "^3.4.8"
   },
   "husky": {
     "hooks": {
