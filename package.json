@@ -45,7 +45,7 @@
     "danger": "9.2.9",
     "danger-plugin-mentor": "^2.0.0",
     "danger-plugin-yarn": "^1.2.1",
-    "husky": "^3.0.0",
+    "husky": "^4.0.9",
     "jest": "^24.8.0",
     "jest-mock-random": "^1.0.2",
     "lint-staged": "^9.0.0",
